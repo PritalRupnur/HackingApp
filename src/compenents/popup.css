@@ -1,0 +1,39 @@
+.PopUp {
+    position: fixed;
+ top: 0;
+ margin-top:5px;
+  margin-left: -500px;
+   width:25%;
+   height:15vh;
+   background-color:rgba(25, 25, 230, 0.2);
+
+  
+   justify-content:center;
+   align-items: center;
+
+  }
+
+  .popupInner{
+    position:relative;
+    padding:32px;
+    width:100%;
+    max-width:400px;
+    background-color:antiquewhite;
+
+  }
+
+  .popUpInner .deleteButton{
+
+    position:absolute;
+    top:160px;
+    right:160px;
+    margin-left:20px;
+   justify-content: space-between;
+  }
+
+  .popUpInner .cancle{
+
+    position:absolute;
+    top:16px;
+    right:160px;
+  }

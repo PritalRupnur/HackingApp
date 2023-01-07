@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Mate+SC&family=Raleway&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;600&family=Squada+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.searchIcon {
+  margin-right: 100px;
+  height: 5px;
+  background-color: aliceblue;
+}
+
+
+body {
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fcf5f5, #eff4fd);
+}
+
+.main-div {
+  width: 40vw;
+  padding: 50px;
+  background-color: rgb(249, 245, 245);
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+h1 {
+
+  font-family: "Bitter", serif;
+  text-transform: capitalize;
+  font-size: 20px;
+  letter-spacing: 5;
+  word-spacing: 5px;
+  margin-bottom: 50px;
+  color: #2c3148;
+}
+
+.main-heading {
+  height: 50px;
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0 20px 20px;
+  background: #efe2d7;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  gap: 20px;
+}
+
+.main-heading:first-child {
+  margin-top: 0;
+}
+
+.main-heading h2 {
+
+  font-family: "Mate SC", serif;
+  color: #303243;
+  font-family: "Raleway", sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+
+/* .searchIcon {
+  margin-top: -62px;
+  margin-left: 617px;
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+} */
+
+.Data {
+  display: flex;
+  flex-direction: row;
+  background-color: #efe2d7;
+  padding: 20px 0 20px 20px;
+  gap: 40px;
+}
+
+
+.Data>div {
+  background-color: #efe2d7;
+  color: rgb(6, 6, 6);
+  text-align: justify;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+
+
+.main-heading {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.collapseIcon {
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background: #fff;
+  font-size: 20px;
+  align-content: center;
+
+}
+
+.editState {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #efe2d7;
+
+  padding: 5px
+}
+
+.OpenState {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #efe2d7;
+  padding: 5px
+}
+
+.description {
+  height: 100px;
+  text-align: justify;
+  background-color: #efe2d7;
+  padding: 0px 20px 60px 20px;
+
+}
+
+.outerdescrip {
+  text-align: start;
+  background-color: #efe2d7;
+  padding: 0px 0 20px 20px;
+
+}
+
+.footer {
+  display: flex;
+  background-color: #efe2d7;
+
+  flex-direction: row-reverse;
+  border-radius: 15px;
+
+
+}
+
+.SingleUser {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: absolute;
+  
+}
+
+.allData {
+  background-color: #efe2d7;
+  border-radius: 20px;
+
+}
+
+.icons {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  flex-direction: row-reverse;
+  background-color: rgb(227, 240, 240);
+  width: 70px;
+  margin-right: 10px;
+  max-width: fit-content;
+
+}
+
+input {
+  left: 1000px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid rgb(223, 216, 216);
+  width: 80%;
+}
